@@ -1,0 +1,17 @@
+# state files — local to each workspace, not version-controlled
+.mcp-pins.json
+.mcp-pins.json.bak
+.mcp-scan-status.md
+.mcp-scan-history.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# macOS
+.DS_Store
